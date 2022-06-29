@@ -1,0 +1,18 @@
+<div class="header">
+    <a href="#default" class="recipe-book">Recipe Book</a>
+    <div class="header-center">
+        <a class="recipes" href="#recipes" (click)="onSelect('recipe')">Recipes</a>
+    </div>
+    <div class="header-right-right">
+        <a href="#shopping list" (click)="onSelect('shopping-list')">Shopping list</a>
+    </div>
+    <div class="dropdown" appDropdown>
+        <ul class=" dropdown-toggle" type="button" data-toggle="dropdown">Manage<span class="caret"></span></ul>
+        <ul class="dropdown-menu">
+          <li><a href="#">SaveData</a></li>
+          <li><a href="#">FetchData</a></li>
+         
+        </ul>
+      
+    </div>
+</div>
